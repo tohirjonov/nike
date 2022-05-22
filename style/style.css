@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.header__top{
+    background: #322E41;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header__link{
+    color: #fff;
+    padding: 23px 14px;
+    display: block;
+    text-decoration: none;
+}
+body{
+    font-family: Roboto;
+}
+.header__link:hover{
+    background: #fff;
+    color: #D47300;
+}
+.header__bottom{
+    background: url(../img/nike-fon.jpg) no-repeat center / cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__title{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    line-height: 59px;
+    text-transform: uppercase;
+}
+.header__text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+.header__text span{
+    font-weight: 700;
+}
+.snicers__content{
+    display: flex;
+    transform: translateY(-30px);
+    column-gap: 30px;
+    justify-content: center;
+}
+.snicers__content-left{
+    max-width: 540px;
+    width: 100%;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    transform: translateX(85px);
+}
+.snicers__content-item{
+    max-width: 255px;
+    width: 100%;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.snicers__content-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.snicers{
+    background: #E5E5E5;
+}
+.snicers__content-left img{
+    margin-bottom: 20px;
+}
+.snicers__content-title{
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-bottom: 10px;
+}
+.snicers__content-text{
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+.item__title{
+    padding-top: 16px;
+    padding-bottom: 12px;
+    font-size: 22px;
+    line-height: 6px;
+    color: #2C2A2A;
+    margin: 10px; 
+}
+.item__text{
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+.footer{
+    background: #322E41;
+    padding-top: 37px;
+    padding-bottom: 57px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    row-gap: 10px;
+}
+.footer__input{
+    padding: 8px;
+    background: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.footer__input::placeholder{
+    color:#9B9B9B;
+    font-family: Roboto;
+}
+.footer__textarea{
+    background: #FFFFFF;
+    border-radius: 6px;
+    min-height: 90px;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.footer__textarea::placeholder{
+    color:#9B9B9B;
+    font-family: Roboto;
+}
+.footer__btn{
+    border: none;
+    background: #544294;
+    border-radius: 6px;
+    padding: 3px 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+}
+.footer__info{
+    display: flex;
+    column-gap: 68px;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.footer__link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer__link:hover{
+    color: #D57300;
+}
+.footer__btn:hover{
+    background: green;
+}
